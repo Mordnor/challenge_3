@@ -235,6 +235,14 @@ img {
     text-transform: uppercase;
 }
 
+strong {
+    text-decoration: underline;
+}
+
+em {
+    font-weight: bold;
+}
+
 #green {
     height: 35em;
     width: 100%;
