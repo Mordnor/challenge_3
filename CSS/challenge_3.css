@@ -85,7 +85,7 @@ header, main, footer {
 /*------------------MAIN---------------------------*/
 
 #main_section {
-    height: 53em;
+    height: 50em;
     width: 100%;
     background-image: url(../IMG/banner.png);
     background-size: cover;
@@ -94,7 +94,7 @@ header, main, footer {
 
 
 section img:first-child {
-    margin-left: 33%;
+    margin-left: 37%;
 }
 
 #main_section h2 {
@@ -108,7 +108,7 @@ section img:first-child {
     text-align: center;
     font-size: 1.3em;
     color: rgb(168, 217, 189, 0.8);
-    margin-bottom: 4.5%;
+    margin-bottom: 3%;
 }
 
 #main_section p {
@@ -139,8 +139,95 @@ main {
 img {
     height: 9em;
     border-radius: 100%;
-    margin: 10% 2% 5% 0;
+    margin: 5% 2% 5% 0;
 }
+
+/*--------section 2---------------------------------*/
+
+#white h2 {
+    text-align: center;
+    font-size: 3.2em;
+    color: #2D404A;
+    margin: 5% 0 1% 0;
+    font-weight: bold;
+}
+
+#white h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: #2D404A;
+    margin-bottom: 3%;
+}
+
+#white p {
+    color: #2D404A;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    line-height: 1.8;
+    margin-bottom: 4.5%;
+}
+
+#white button {
+    margin-left: 43%;
+    height: 12%;
+    padding: 0 3%;
+    border: none;
+    border-radius: 5%;
+    background-color: #00BF64;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#white {
+    height: 30em;
+    width: 100%;
+}
+
+/*--------------------section 3--------------------*/
+#green h2 {
+    text-align: center;
+    font-size: 3.2em;
+    color: white;
+    margin: 5% 0 1% 0;
+    font-weight: bold;
+}
+
+#green h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    margin-bottom: 3%;
+}
+
+#green p {
+    color: white;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    line-height: 1.8;
+    margin-bottom: 4.5%;
+}
+
+#green button {
+    margin-left: 43%;
+    height: 11%;
+    padding: 0 3%;
+    border: none;
+    border-radius: 5%;
+    background-color: white;
+    color: #00BF64;
+    text-transform: uppercase;
+}
+
+#green {
+    height: 33em;
+    width: 100%;
+    background-color: #00BF64;
+    box-sizing: border-box;
+    padding-top: 0.1%;
+}
+
 /*------------------MAIN---------------------------*/
 
 
