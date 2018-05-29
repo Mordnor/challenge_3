@@ -17,7 +17,9 @@ gris clair : #656565 */
 
 
 
-
+#current_page {
+    color: #27AE69;
+}
 
 
 
@@ -27,6 +29,7 @@ gris clair : #656565 */
 
 /*----------------------NAV------------------------*/
     header li {
+        font-family: 'News Cycle', sans-serif;
         display: inline-block;
         padding: 0 2%;
         font-size: 1em;
@@ -49,6 +52,8 @@ gris clair : #656565 */
     }
 
     header h1 {
+        font-family: 'News Cycle', sans-serif;
+        font-weight: bold;
         font-size: 2em;
         width: 25%;
         display: inline-block;
@@ -73,19 +78,10 @@ gris clair : #656565 */
 
 
 
-
-
-header, main, footer {
-    margin: auto;
-}
-
-
-
-
 /*------------------MAIN---------------------------*/
 
 #main_section {
-    height: 50em;
+    height: 48em;
     width: 100%;
     background-image: url(../IMG/banner.png);
     background-size: cover;
@@ -98,6 +94,8 @@ section img:first-child {
 }
 
 #main_section h2 {
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 3.2em;
     color: white;
@@ -105,6 +103,7 @@ section img:first-child {
 }
 
 #main_section h3 {
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 1.3em;
     color: rgb(168, 217, 189, 0.8);
@@ -112,6 +111,7 @@ section img:first-child {
 }
 
 #main_section p {
+    font-family: 'News Cycle', sans-serif;
     color: #C8E1D5;
     text-align: center;
     width: 65%;
@@ -121,9 +121,11 @@ section img:first-child {
 }
 
 #main_section button {
-    margin-left: 43%;
-    height: 6.5%;
-    padding: 0 3%;
+    letter-spacing: 4px;
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 44%;
+    height: 6.8%;
+    padding: 0 2%;
     border: none;
     border-radius: 5%;
     background-color: #2B3F48;
@@ -145,14 +147,17 @@ img {
 /*--------section 2---------------------------------*/
 
 #white h2 {
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 3.2em;
     color: #2D404A;
-    margin: 5% 0 1% 0;
+    margin: 0% 0 1% 0;
+    padding-top: 4%;
     font-weight: bold;
 }
 
 #white h3 {
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 1.3em;
     color: #2D404A;
@@ -160,6 +165,7 @@ img {
 }
 
 #white p {
+    font-family: 'News Cycle', sans-serif;
     color: #2D404A;
     text-align: center;
     width: 65%;
@@ -169,9 +175,11 @@ img {
 }
 
 #white button {
-    margin-left: 43%;
-    height: 12%;
-    padding: 0 3%;
+    letter-spacing: 4px;
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 45%;
+    height: 10%;
+    padding: 0 2%;
     border: none;
     border-radius: 5%;
     background-color: #00BF64;
@@ -180,12 +188,15 @@ img {
 }
 
 #white {
-    height: 30em;
+    background-color: #EEEEEE;
+    height: 35em;
     width: 100%;
 }
 
 /*--------------------section 3--------------------*/
 #green h2 {
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 3.2em;
     color: white;
@@ -194,6 +205,7 @@ img {
 }
 
 #green h3 {
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     font-size: 1.3em;
     color: white;
@@ -201,6 +213,7 @@ img {
 }
 
 #green p {
+    font-family: 'News Cycle', sans-serif;
     color: white;
     text-align: center;
     width: 65%;
@@ -210,9 +223,11 @@ img {
 }
 
 #green button {
-    margin-left: 43%;
-    height: 11%;
-    padding: 0 3%;
+    letter-spacing: 4px;
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 45%;
+    height: 10%;
+    padding: 0 2%;
     border: none;
     border-radius: 5%;
     background-color: white;
@@ -221,7 +236,7 @@ img {
 }
 
 #green {
-    height: 33em;
+    height: 35em;
     width: 100%;
     background-color: #00BF64;
     box-sizing: border-box;
@@ -245,7 +260,18 @@ img {
 
 
 /*--------------------FOOTER----------------------*/
+footer {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 11em;
+    text-align: center;
+    line-height: 11;
+    color: #C2BCB0;
+}
 
+footer p {
+
+}
 
 
 /*--------------------FOOTER----------------------*/
